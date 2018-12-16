@@ -1,7 +1,7 @@
 # iReporter_UI
 this is an innovative platform on which a use can sign into an account and through this is able to report interventions of corruption and any other redflags they want to bring to the govenment's and public's attention 
 
-[the site link]( https://mukuruh.github.io/iReporter_UI/)
+[the site link]( https://mukuruh.github.io/iReporter_UI/index.iReporter_login.html)
 
 ### Prerequisites
 I needed to install html packages on my vs code software in order to ensure that
