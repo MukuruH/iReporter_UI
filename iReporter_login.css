@@ -123,12 +123,47 @@ header  .current-page a:hover{
     margin:5 25 5 0 ;
 }
 
-.card {
+.profile {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
 }
+/* .incident{
+    width: 40%;
+    text-align: center;
+    float: left;
+   
+    
+} */
+
+.column {
+    float: left;
+    width: 95%;
+    padding: 0 10px 15px;
+  }
+  
+  
+.row {margin: 0 -5px;}
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.records-table{
+    margin-bottom: 20px;
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #e94326;
+    color: #dddddd
+  }
 .entry-fields{
     padding-left:40px 
 }
@@ -218,6 +253,10 @@ tr:nth-child(even) {
         overflow: hidden;
         padding: 0px;
     }
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
 
     #toggle:checked .menu{
         display: block;
