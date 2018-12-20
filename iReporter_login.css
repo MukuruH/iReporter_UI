@@ -20,12 +20,18 @@ ul{
 .button1{
     height: 38px;
     background: #e94326;
-    border: 0;
-    padding-left: 10px;
-    padding-right: 10px;
     color: white;
-
+    border-radius: 8px;
+    padding: 14px 20px 0 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
 }
+
+.button1:hover {
+    opacity:1;
+}
+
 .buttons a{
     display: inline;
 }
@@ -91,7 +97,7 @@ header  .current-page a:hover{
 
 }
 #login{
-    height: 80%;
+    height: auto;
     overflow: hidden;
 }
 
@@ -103,6 +109,12 @@ header  .current-page a:hover{
     margin-top: 30px;
 
 }
+#login .signing-up{
+    text-align: center;
+    
+    padding: 20px;
+    margin-top: 30px;
+}
 
 #login input{
     height: 30px;
@@ -111,7 +123,15 @@ header  .current-page a:hover{
     margin:5 25 5 0 ;
 }
 
-
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.entry-fields{
+    padding-left:40px 
+}
 
 footer{
     background: #e94326;
@@ -186,6 +206,10 @@ tr:nth-child(even) {
         padding-bottom: 20px;  
     }
 
+    .entry-fields{
+        text-align: center; 
+    }
+
     #login, #login .row, #login .top-stories{
         float: none;
         text-align: center;
@@ -195,7 +219,7 @@ tr:nth-child(even) {
         padding: 0px;
     }
 
-    #toggle:checked + .menu{
+    #toggle:checked .menu{
         display: block;
 
     }
